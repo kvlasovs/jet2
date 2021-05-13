@@ -1,17 +1,15 @@
-const modal = document.getElementById("myModal");
-const btn = document.getElementById("myBtn");
-const close = document.getElementsByClassName("modal-content__bottom-btn")[0];
-const next = document.getElementsByClassName("modal-content__bottom-btn--continue")[0];
+"use strict";
 
-
-btn.addEventListener('click', function() {
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var close = document.getElementsByClassName("modal-content__bottom-btn")[0];
+var next = document.getElementsByClassName("modal-content__bottom-btn--continue")[0];
+btn.addEventListener('click', function () {
   modal.classList.add("modal--active");
-})
-
-close.addEventListener('click', function() {
+});
+close.addEventListener('click', function () {
   modal.classList.remove("modal--active");
-})
-
-next.addEventListener('click', function() {
+});
+next.addEventListener('click', function () {
   modal.classList.remove("modal--active");
-})
+});
