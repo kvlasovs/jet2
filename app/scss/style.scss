@@ -87,18 +87,13 @@
 
 @media (min-width: 768px){
   .modal--active{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
   }
   .modal-content{
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 630px;
-    min-height: 380px;
     &__bottom{
-      display: flex;
-      justify-content: center;
+      text-align: center;
       &::before{
         top: 10px;
       }

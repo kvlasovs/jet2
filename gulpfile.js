@@ -30,7 +30,7 @@ function scripts() {
     .pipe(babel({
       presets: ["@babel/preset-env"]
     }))
-    .pipe(dest('app/js'));
+    .pipe(dest('app/jses5'));
 };
 
 function images() {
